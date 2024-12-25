@@ -1,0 +1,17 @@
+{
+    "name": "pnpm-monorepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test:utils": "pnpm run --filter utils test",
+        "test:all": "pnpm run -r test",
+        "dev:react-app": "pnpm run --filter react-app dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^3.4.2"
+    }
+}
